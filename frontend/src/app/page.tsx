@@ -10,7 +10,7 @@ export default function LandingPage() {
   const [status, setStatus] = useState("INITIALIZING SYSTEM...");
   const router = useRouter();
 
-  // Boot sequence effect
+  // Boot sequence effectc
   useEffect(() => {
     let current = 0;
     const interval = setInterval(() => {
