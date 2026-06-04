@@ -1,0 +1,10 @@
+hotel_type: "City Hotel"
+forecast_weeks: 4
+alert_threshold: 0.65
+model_params:
+  n_estimators: 200
+  learning_rate: 0.05
+  max_depth: 5
+  subsample: 0.8
+  colsample_bytree: 0.8
+  random_state: 42

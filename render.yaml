@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: hotelpulse
+    runtime: docker
+    plan: free
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false          # you'll paste this in Render dashboard
+      - key: OPENWEATHER_API_KEY
+        sync: false
+      - key: ALERT_THRESHOLD
+        value: "0.65"
+    healthCheckPath: /_stcore/health
