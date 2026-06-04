@@ -57,7 +57,7 @@ Tone: luxury, aspirational, exclusive — never cheap or desperate. Think Ritz-C
     }
     
     data = {
-        "model": "minimax/minimax-m3",
+        "model": "google/gemma-4-26b-a4b-it",
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 3000
     }

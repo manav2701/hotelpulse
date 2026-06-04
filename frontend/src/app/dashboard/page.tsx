@@ -94,7 +94,7 @@ export default function Dashboard() {
           <strong className="text-white block mb-1">How it Works:</strong>
           The XGBoost pipeline predicts future occupancy based on historical pacing and local events. 
           When the yellow forecast line dips below the red safety threshold (65%), it represents a dangerous drop in expected revenue. 
-          The moment this drop is detected, the Minimax AI Agent automatically activates to generate targeted marketing campaigns to plug the gap before it happens!
+          The moment this drop is detected, the Gemma 4 AI Agent automatically activates to generate targeted marketing campaigns to plug the gap before it happens!
         </div>
       </header>
 
@@ -152,7 +152,7 @@ export default function Dashboard() {
             {loadingMarketing ? (
               <div className="flex flex-col items-center justify-center py-12 text-gray-400">
                 <Loader2 className="w-8 h-8 animate-spin text-[#ebff00] mb-4" />
-                <p>Minimax M3 generating strategy...</p>
+                <p>Gemma 4 generating strategy...</p>
               </div>
             ) : marketing ? (
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">

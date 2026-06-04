@@ -24,7 +24,7 @@ export default function LandingPage() {
       } else {
         if (current < 30) setStatus("LOADING BOOKINGS DATA...");
         else if (current < 60) setStatus("INITIALIZING XGBOOST MODEL...");
-        else if (current < 90) setStatus("CONNECTING MINIMAX M3...");
+        else if (current < 90) setStatus("CONNECTING GEMMA 4...");
       }
       setProgress(current);
     }, 150);
@@ -89,7 +89,7 @@ export default function LandingPage() {
               transition={{ delay: 1.5 }}
               className="mt-8 text-xl md:text-2xl text-center max-w-2xl text-gray-400"
             >
-              ML pipeline combining XGBoost pricing models with Minimax M3 for promotional marketing.
+              ML pipeline combining XGBoost pricing models with Gemma 4 for promotional marketing.
             </motion.p>
 
             <motion.button
